@@ -40,12 +40,12 @@ html, body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-gap: 15px;
+    grid-gap: 20px;
     margin: 50px;
 }
 
 button {
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     font-size: 18px;
     border: none;
@@ -93,4 +93,8 @@ button:active {
 
 .number:hover, .number:active {
     background-color: #d1d3d8;
+}
+
+.backspace > img {
+    width: 30px;
 }
