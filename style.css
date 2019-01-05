@@ -87,6 +87,12 @@ button:active {
     background-color: #9da6b3; 
 }
 
+.operator.is-depressed {
+    background-color: #9da6b3;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
 .number {
     background-color: #f4f7fd;
 }
