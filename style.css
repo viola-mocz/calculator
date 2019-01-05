@@ -20,8 +20,8 @@ html, body {
 .calc-container {
     border: 1px solid black;
     border-radius: 10px;
-    width: 500px;
-    height: 600px;
+    width: 450px;
+    height: 575px;
     background-color: #4286f4;
 }
 
@@ -40,7 +40,7 @@ html, body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-gap: 20px;
+    grid-gap: 25px;
     margin: 50px;
 }
 
@@ -73,6 +73,10 @@ button:active {
 
 .equal {
     background-color: #58e268;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
 }
 
 .equal:hover, .equal:active {
